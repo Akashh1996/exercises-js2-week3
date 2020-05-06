@@ -19,7 +19,7 @@ Update your code to make the colour change every 5 seconds to something differen
 setInterval(function back(){
     var colors = ["red","blue","green","yellow","silver"]
     let x = (Math.ceil(Math.random()*5))
-    console.log(x);
+  
     
     document.body.style.background = colors[x]
 },500)
