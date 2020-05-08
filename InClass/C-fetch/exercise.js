@@ -10,7 +10,7 @@ When you get the response from the server, print the current temperature in an <
 
 ================
 */
-var h3 = document.createElement("h3")
+         var h3 = document.createElement("h3")
 
 document.querySelector("button").addEventListener("click",function (e){
     var lat = document.querySelector("#Latitude").value;
