@@ -19,10 +19,32 @@
   <div id="main">
     <div class="jumbotron">
       <h1>My movies</h1>
+      <p class="alert alert-info">Number of movies: <span id="movies-number"></span></p>
+
       <div id="all-movies">
-        <p class="alert alert-info">Number of movies: <span id="movies-number"></span></p>
       </div>
     </div>
+
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Movie name</label>
+        <input type="text" class="form-control" id="moviename" >
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">director</label>
+        <input type="text" class="form-control" id="directorname" >
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">type of movie</label>
+        <input type="text" class="form-control" id="type" >
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">watched or not</label>
+        <input type="text" class="form-control" id="watched" >
+      </div>
+      
+      <button type="submit" class="btn btn-primary" >Add movie</button>
+    </form>
     <script src="exercise.js"></script>
 </body>
 
